@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "skipLibCheck": true, // https://github.com/nuxt/nuxt.js/issues/4877
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "target": "esnext",
+    "jsx": "preserve",
+    "allowJs": false,
+    "moduleResolution": "node",
+    "noEmit": true,
+    "baseUrl": ".",
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "paths": {
+      "~/*": [
+        "./*"
+      ],
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "**/*"
+  ]
+}
